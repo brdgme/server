@@ -1,3 +1,5 @@
+extern crate brdgme_server;
+
 fn main() {
-    println!("Hello, world!");
+    brdgme_server::new().listen("0.0.0.0:8080");
 }
